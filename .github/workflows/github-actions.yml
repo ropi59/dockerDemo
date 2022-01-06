@@ -1,0 +1,11 @@
+name: Test Action
+on:
+  push:
+    branches:
+      - develop
+jobs:
+  First-jobs:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Je fais les tests"
+      - run: echo "Je fais le build"
